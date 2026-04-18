@@ -1,0 +1,59 @@
+body{
+    background-color: #002E63;
+    color: azure;
+}
+#historico{
+    background-color: azure;
+    color: #002E63;
+}
+
+h1{
+    font-family: Times;
+    text-align: center;
+}
+
+h4{
+    color: #86dad5;
+}
+
+#subtitulo{
+    text-align: center;
+}
+.historico li{
+    color: black;
+}
+
+.habilidade{
+    border: 3px solid #fff;
+    padding: 10px;
+}
+
+.habilidade:hover{
+    background-color: azure;
+    color: #002E63;
+    border: 3px solid black;
+    h4{color: black;}
+}
+
+h4::before{
+    content: "→"; 
+}
+
+.habilidade p{
+    font-family: monospace;
+}
+
+a[href="https://docs.google.com/document/d/1QdVKaJCDGCzDFEZTpjBVH6mnWYjXHnDz/edit?usp=sharing&ouid=110857591504421443821&rtpof=true&sd=true"]{
+    color: azure;
+    text-align: center;
+    padding: 10px;
+}
+
+footer{
+    background-color: aliceblue;
+    color: #000000;
+}
+p ~ a{
+    background-color: aliceblue;
+    color: #002E63;
+}
