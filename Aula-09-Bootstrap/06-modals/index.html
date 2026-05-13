@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal com Bootstrap</title>
+    <!-- Importação do Bootstrap HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Botão que abre o modal -->
+    <button type="button" class="btn btn-primary my-4 mx-4" data-bs-toggle="modal" data-bs-target="#JanelaModal">
+        Abrir
+    </button>
+
+    <!-- MODAL -->
+    <div id="JanelaModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- TITULO DO MODAL -->
+                <div class="modal-header">
+                    <h3 class="modal-title">TItulo do Modal</h3>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <!-- Modal BODY -->
+                 <div class="modal-body">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo recusandae assumenda impedit sunt necessitatibus perferendis eos eum officiis magnam aspernatur animi doloremque, vitae dignissimos dolorem blanditiis molestias quaerat ipsam et.
+                    Itaque incidunt, vitae aperiam tempore quod perferendis! Debitis labore sunt recusandae aut a iure suscipit, libero aperiam eius rerum deleniti dolores quia provident esse minima tempora culpa, obcaecati, quis laudantium!
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Importação do Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+
+</html>
