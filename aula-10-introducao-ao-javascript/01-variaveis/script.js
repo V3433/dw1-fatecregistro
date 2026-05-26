@@ -5,8 +5,8 @@
 // LET: Utilize quando for necessário reatribuir o valor da variável
 // CONST: Utilize quando NÃO precisar reatribuir o valor da variável
 // VAR:
-var nome = "Vinicius";
-nome = "João";
+var nome = "Vinicius"
+nome = "João"
 var nome = "José"
 // LET:
 let cidade = "Registro"
